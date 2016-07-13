@@ -30,6 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); 
 }
 .nav {
   display: flex;
@@ -44,6 +45,7 @@ a:hover {
     display: block;
     margin-right: auto;
     color: #55B8B8;
+    font-size: 1.2em;
 }
 
 .nav li {
@@ -63,7 +65,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/views.jpg') no-repeat bottom center ;
+  background: url('../images/views.jpg') no-repeat bottom center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -173,6 +175,7 @@ a.social:hover {
   clear: both;
 }
 
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -184,6 +187,7 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
   }
+
 
   header {
     min-height: 470px;
@@ -210,4 +214,23 @@ a.social:hover {
   }
 
 }
+
+@media screen and (min-width: 400px) {
+
+  .three-column {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 
